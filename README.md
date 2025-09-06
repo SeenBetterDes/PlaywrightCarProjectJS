@@ -2,6 +2,7 @@
 ![Node](https://img.shields.io/badge/node-18+-blue)
 ![Playwright](https://img.shields.io/badge/framework-Playwright-orange)
 ![Allure](https://img.shields.io/badge/report-Allure-purple)
+[![Playwright Tests](https://github.com/SeenBetterDes/PlaywrightCarProjectJS/actions/workflows/playwright.yml/badge.svg)](https://github.com/SeenBetterDes/PlaywrightCarProjectJS/actions/workflows/playwright.yml)
 
 # Playwright test Automation Project : JavaScript + Node.js
 
