@@ -46,7 +46,7 @@ jobs:
       run: npx playwright install --with-deps
 
     - name: Import schema
-      run: mysql -h 127.0.0.1 -uroot -proot cars_db < ./docs/schema_clean.sql
+      run: mysql -h 127.0.0.1 -uroot -proot cars_db < ./docs/schema.sql
 
     - name: Run Playwright tests
       run: npx playwright test
