@@ -31,44 +31,39 @@ jobs:
           --health-retries=5
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+    - name: Checkout repo
+      uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: lts/*
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: lts/*
 
-      - name: Install dependencies
-        run: npm ci
+    - name: Install dependencies
+      run: npm ci
 
-      - name: Install Playwright browsers
-        run: npx playwright install --with-deps
+    - name: Install Playwright browsers
+      run: npx playwright install --with-deps
 
-      - name: Clean SQL file
-        run: |
-          sed -i '1s/^\xEF\xBB\xBF//' ./docs/schema_with_data.sql
-          tr -d '\000' < ./docs/schema_with_data.sql > ./docs/schema_clean.sql
+    - name: Import schema
+      run: mysql -h 127.0.0.1 -uroot -proot cars_db < ./docs/schema.sql
 
-      - name: Import schema
-        run: mysql --binary-mode=1 -h 127.0.0.1 -uroot -proot cars_db < ./docs/schema_clean.sql
+    - name: Run Playwright tests
+      run: npx playwright test
 
-      - name: Run Playwright tests
-        run: npx playwright test
+    - name: Generate Allure report
+      run: npx allure generate allure-results --clean -o allure-report
 
-      - name: Generate Allure report
-        run: npx allure generate allure-results --clean -o allure-report
+    - name: Upload Playwright report
+      uses: actions/upload-artifact@v4
+      with:
+        name: playwright-report
+        path: playwright-report/
+        retention-days: 30
 
-      - name: Upload Playwright report
-        uses: actions/upload-artifact@v4
-        with:
-          name: playwright-report
-          path: playwright-report/
-          retention-days: 30
-
-      - name: Upload Allure report
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-report
-          path: allure-report/
-          retention-days: 30
+    - name: Upload Allure report
+      uses: actions/upload-artifact@v4
+      with:
+        name: allure-report
+        path: allure-report/
+        retention-days: 30
