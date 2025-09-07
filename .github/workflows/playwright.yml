@@ -34,13 +34,11 @@ jobs:
     - name: Start MySQL service
       run: sudo service mysql start
 
-    - name: Configure MySQL root user & create DB
+    - name: Configure MySQL root user
       run: |
-        sudo mysql <<EOF
-        ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
-        FLUSH PRIVILEGES;
-        CREATE DATABASE IF NOT EXISTS cars_db;
-        EOF
+        sudo mysql -uroot -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';"
+        sudo mysql -uroot -proot -e "FLUSH PRIVILEGES;"
+        sudo mysql -uroot -proot -e "CREATE DATABASE IF NOT EXISTS cars_db;"
 
     - name: Import schema
       run: sudo mysql -uroot -proot cars_db < ./docs/schema_with_data.sql
