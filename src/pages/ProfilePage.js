@@ -1,4 +1,4 @@
-const { BasePage } = require("./basePage");
+const { BasePage } = require("./BasePage");
 exports.ProfilePage = class ProfilePage extends BasePage{
 
     constructor(page){
