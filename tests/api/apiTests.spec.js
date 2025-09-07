@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test'
 import { registerUserViaUI, generateTestUser } from '../../src/utils/dbHelper';
-import { HomePage } from '../../src/pages/homePage';
+import { HomePage } from '../../src/pages/HomePage';
 import { RegisterPage } from '../../src/pages/RegisterPage';
 import * as allure from "allure-js-commons";
 

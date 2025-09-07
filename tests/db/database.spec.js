@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test'
 import { RegisterPage} from '../../src/pages/RegisterPage'
 import { ProfilePage } from '../../src/pages/ProfilePage';
-import { HomePage } from '../../src/pages/homePage';
+import { HomePage } from '../../src/pages/HomePage';
 import * as allure from "allure-js-commons";
 const { insertUsers, generateTestUser,getLatestUser,registerUserViaUI,deleteUser,userExists,countUsersByUsername, updatedPassword, updateUserFirstName,getLatestVote,vote,getVoteByUserAndComment,getUserByUsername} = require('../../src/utils/dbHelper');
 

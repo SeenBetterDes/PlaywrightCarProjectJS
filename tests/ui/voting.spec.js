@@ -1,5 +1,5 @@
 import {test,expect,chromium} from '@playwright/test'
-import { HomePage } from "../../src/pages/homePage"
+import { HomePage } from "../../src/pages/HomePage"
 import { RegisterPage } from '../../src/pages/RegisterPage';
 import * as allure from "allure-js-commons";
 const { insertUsers,registerUserViaUI,generateTestUser,vote,getLatestVote,deleteUser,getVoteByUserAndComment} = require('../../src/utils/dbHelper');

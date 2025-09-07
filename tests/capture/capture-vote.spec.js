@@ -1,6 +1,6 @@
 import {test} from '@playwright/test'
 import { captureRequests } from '../../src/utils/apiHelper'
-import { HomePage } from '../../src/pages/homePage';
+import { HomePage } from '../../src/pages/HomePage';
 import { registerUserViaUI,generateTestUser } from '../../src/utils/dbHelper';
 import { RegisterPage } from '../../src/pages/RegisterPage';
 
