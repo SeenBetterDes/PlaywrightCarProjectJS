@@ -1,0 +1,30 @@
+Captured requests: [
+  {
+    url: 'https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token',
+    method: 'POST',
+    postData: 'grant_type=password&username=SeenB&password=Trilerko12$',
+    headers: {
+      'sec-ch-ua-platform': '"Windows"',
+      referer: 'https://buggy.justtestit.org/',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36',
+      'sec-ch-ua': '"Chromium";v="140", "Not=A?Brand";v="24", "HeadlessChrome";v="140"',
+      'content-type': 'application/x-www-form-urlencoded',
+      'sec-ch-ua-mobile': '?0',
+      'accept-language': 'en-US'
+    }
+  },
+  {
+    url: 'https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current',
+    method: 'GET',
+    postData: null,
+    headers: {
+      'sec-ch-ua-platform': '"Windows"',
+      authorization: 'Bearer eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIwNWYyOTVkMi04MjU3LTQ0OTItOTNmYy00NDU0YTJlNzU3YTkiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiODY2YTI4OTctNTE2YS00MjA2LWFhMmItZTIyMTczZmFlMDc4IiwiZXZlbnRfaWQiOiI5MDIwZDc3NC0zOWI4LTRlNDYtOWVkMi1mMDc3MzRhOWM0ZGIiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzU3MTg5MjUwLCJleHAiOjE3NTcxOTI4NTAsImlhdCI6MTc1NzE4OTI1MCwianRpIjoiNzg5NThiYmItM2RlYi00OWRlLTg4NmQtOGEyYWIzMzRiMTJjIiwidXNlcm5hbWUiOiJTZWVuQiJ9.lUy4oaPbOMFilmCxJMVEHc09bnOTlaFrO0zPUEVJnNDcrKxxS57_MrA_exxzo0zVOZ_qRDdXP6ErLMizxQSU9i0TBvME0ITHii1-LdtGF30sW4-4_k35KspIVKwRS0EFo15kTyCz2GmY_yczg_4zZC8s269aGfcD81nlV9GQKXYgc0e1joGGNEQ68mBChcu9VTWvYgp18CeXLEoflAxra5O6JuHyagXkzj39xVWahyM9hWKuYhqGVLewMnlPhtlBEnTA_W3UMlfEoLdvYvBPx7U7sHX23FhuB5rKBJ8ir5lKsyVanP-Uj2jaPf02Mb8dGMU3nkiCoMvc3_eU_TEX9g',
+      referer: 'https://buggy.justtestit.org/',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36',
+      'sec-ch-ua': '"Chromium";v="140", "Not=A?Brand";v="24", "HeadlessChrome";v="140"',
+      'accept-language': 'en-US',
+      'sec-ch-ua-mobile': '?0'
+    }
+  }
+]

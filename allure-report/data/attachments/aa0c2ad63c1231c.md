@@ -1,0 +1,56 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - link "Buggy Rating" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - textbox "Login" [ref=e10]
+            - textbox [ref=e11]
+          - button "Login" [ref=e12] [cursor=pointer]
+          - link "Register" [ref=e13] [cursor=pointer]:
+            - /url: /register
+    - generic [ref=e16]:
+      - heading "Buggy Cars Rating" [level=1] [ref=e18]:
+        - text: Buggy
+        - text: Cars
+        - text: Rating
+      - img [ref=e21]
+  - main [ref=e22]:
+    - main [ref=e23]:
+      - generic [ref=e26]:
+        - heading "Register with Buggy Cars Rating" [level=2] [ref=e27]
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: Login
+            - textbox "Login" [active] [ref=e31]
+          - generic [ref=e32]:
+            - generic [ref=e33]: First Name
+            - textbox "First Name" [ref=e34]
+          - generic [ref=e35]:
+            - generic [ref=e36]: Last Name
+            - textbox "Last Name" [ref=e37]
+          - generic [ref=e38]:
+            - generic [ref=e39]: Password
+            - textbox "Password" [ref=e40]
+          - generic [ref=e41]:
+            - generic [ref=e42]: Confirm Password
+            - textbox "Confirm Password" [ref=e43]
+          - button "Register" [ref=e44] [cursor=pointer]
+          - button "Cancel" [ref=e45] [cursor=pointer]
+          - generic [ref=e46]: Registration is successful
+    - separator [ref=e47]
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - link "Facebook" [ref=e51] [cursor=pointer]:
+          - /url: https://www.facebook.com
+          - img [ref=e52] [cursor=pointer]
+        - link "Twitter" [ref=e53] [cursor=pointer]:
+          - /url: https://www.twitter.com
+          - img [ref=e54] [cursor=pointer]
+      - paragraph [ref=e55]: © 2016 Buggy Software, Inc.
+```

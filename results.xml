@@ -1,0 +1,179 @@
+<testsuites id="" name="" tests="42" failures="0" skipped="0" errors="0" time="215.549268">
+<testsuite name="api\apiTests.spec.js" timestamp="2025-09-07T01:27:06.006Z" hostname="chromium" tests="6" failures="0" skipped="0" time="79.527" errors="0">
+<testcase name="API tests › Login with valid user" classname="api\apiTests.spec.js" time="12.803">
+</testcase>
+<testcase name="API tests › Login with invalid user" classname="api\apiTests.spec.js" time="10.784">
+</testcase>
+<testcase name="API tests › Get current user" classname="api\apiTests.spec.js" time="11.888">
+</testcase>
+<testcase name="API tests › Vote for a car" classname="api\apiTests.spec.js" time="12.603">
+</testcase>
+<testcase name="API tests › Get car Details" classname="api\apiTests.spec.js" time="14.929">
+</testcase>
+<testcase name="API tests › Vote for a car with a comment" classname="api\apiTests.spec.js" time="16.52">
+</testcase>
+</testsuite>
+<testsuite name="capture\capture-login.spec.js" timestamp="2025-09-07T01:27:06.006Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.1" errors="0">
+<testcase name="discover login request" classname="capture\capture-login.spec.js" time="6.1">
+<system-out>
+<![CDATA[Captured requests: [
+  {
+    url: [32m'https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token'[39m,
+    method: [32m'POST'[39m,
+    postData: [32m'grant_type=password&username=SeenB&password=Trilerko12$'[39m,
+    headers: {
+      [32m'sec-ch-ua-platform'[39m: [32m'"Windows"'[39m,
+      referer: [32m'https://buggy.justtestit.org/'[39m,
+      [32m'user-agent'[39m: [32m'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36'[39m,
+      [32m'sec-ch-ua'[39m: [32m'"Chromium";v="140", "Not=A?Brand";v="24", "HeadlessChrome";v="140"'[39m,
+      [32m'content-type'[39m: [32m'application/x-www-form-urlencoded'[39m,
+      [32m'sec-ch-ua-mobile'[39m: [32m'?0'[39m,
+      [32m'accept-language'[39m: [32m'en-US'[39m
+    }
+  },
+  {
+    url: [32m'https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current'[39m,
+    method: [32m'GET'[39m,
+    postData: [1mnull[22m,
+    headers: {
+      [32m'sec-ch-ua-platform'[39m: [32m'"Windows"'[39m,
+      authorization: [32m'Bearer eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIwNWYyOTVkMi04MjU3LTQ0OTItOTNmYy00NDU0YTJlNzU3YTkiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiYTQ3NDAxZWItOWYwZS00MmEwLTk1N2MtYmU5YjE0YWVkMDBkIiwiZXZlbnRfaWQiOiI0YWJjODM0MC0zNDk2LTQ1MjMtODMyNi1jNWJmOTE4ZDMwYTYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzU3MTY4NzkzLCJleHAiOjE3NTcxNzIzOTMsImlhdCI6MTc1NzE2ODc5MywianRpIjoiMTBjMzkwYjMtZGE1Yy00OGEzLWEwZjAtMjlhNDljMzBhZGFhIiwidXNlcm5hbWUiOiJTZWVuQiJ9.S5X3bSpQpglDq_rYwnqmWVuk5GqizwzC6r90DRrE8nKSz2VLBDWRdvEsS3kizIYwEi3-nO1OuKAS5z9gbAbqswwJAi8sXrk_669EtebWODJVAsUgr8RFdCEb3KXBfxxhXI8tk-bPSebDoOVQ7mhSdOo4fgnILB5l0YNqS7ZRIttuTQLMa8bLwg39TE6J8ZoTFT4buHmLpy7uiPvWiz7_4os9myzY-UASeut7A6zfitsuzm4IEyfAnXDShZy_o5Z4gkIoWAnoUzYT7PhzdTmlmOnU2T2fBjWy11iw0wwkX4ZP5cxEK5rfLg_h68JDS4pQnGL2FqRqI3jwW0xpe0ra9Q'[39m,
+      referer: [32m'https://buggy.justtestit.org/'[39m,
+      [32m'user-agent'[39m: [32m'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36'[39m,
+      [32m'sec-ch-ua'[39m: [32m'"Chromium";v="140", "Not=A?Brand";v="24", "HeadlessChrome";v="140"'[39m,
+      [32m'accept-language'[39m: [32m'en-US'[39m,
+      [32m'sec-ch-ua-mobile'[39m: [32m'?0'[39m
+    }
+  }
+]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="capture\capture-vote.spec.js" timestamp="2025-09-07T01:27:06.006Z" hostname="chromium" tests="1" failures="0" skipped="0" time="21.873" errors="0">
+<testcase name="capture vote request" classname="capture\capture-vote.spec.js" time="21.873">
+<system-out>
+<![CDATA[Captured requests:  [
+  {
+    url: [32m'https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/ckl2phsabijs71623vk0%7Cckl2phsabijs71623vqg/vote'[39m,
+    method: [32m'POST'[39m,
+    postData: [32m'{"comment":""}'[39m,
+    headers: {
+      [32m'sec-ch-ua-platform'[39m: [32m'"Windows"'[39m,
+      authorization: [32m'Bearer eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI4NTYxYTFlMC1lYjZlLTQzN2UtYjY5Yi00YTBmYjRkODRiNzIiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiODVjMjA3ODAtZDdhNi00NzYzLTk2NDEtYmI1NjlkZWM3ZGZhIiwiZXZlbnRfaWQiOiJjZTVkMzEyYy03M2Q0LTRhOTgtYmZiYS1lMjQxMGQ3MGJhZTgiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzU3MTY4Nzk2LCJleHAiOjE3NTcxNzIzOTYsImlhdCI6MTc1NzE2ODc5NiwianRpIjoiNmU2YTljNDctMzI4OC00MzQzLWI1ZDAtNWQ1MDk0ZTQ2MmZhIiwidXNlcm5hbWUiOiJUZXN0VXNlcl8xNzU3MjA4NDI3OTkwXzcxMCJ9.bNylq64ts2K9cWxKyZaectGxbitofWbqm1598KOtetteNHdJJR3vdGuRmQ-GBG4xkJSbExZf6GBpp-l98Z5Mkv5wk8PuvMW9dcfe-CQ2cJzXMbxPCt507-zr0w_hDISTVkspyQfYMdAKJk8ln5IpypBNP7fl8mA1PI4LPnNvFYMQgjwnEwSTeoySTNLHTZ1LZ5x8RFCe538KgbghPaRs4iwdfKsooMevyHsTVPTBJLEXwZkuMjhgAOCg8M0sGhdudqzBandOgbEyU_HkDJtYqWAmai7PJh0pVAJQEYCrMqKeSjPWHCFmsaoQ_8uoShiOWw4J0DL6JJs6EoKJqW0Xcg'[39m,
+      referer: [32m'https://buggy.justtestit.org/'[39m,
+      [32m'accept-language'[39m: [32m'en-US'[39m,
+      [32m'sec-ch-ua'[39m: [32m'"Chromium";v="140", "Not=A?Brand";v="24", "HeadlessChrome";v="140"'[39m,
+      [32m'sec-ch-ua-mobile'[39m: [32m'?0'[39m,
+      [32m'user-agent'[39m: [32m'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36'[39m,
+      [32m'content-type'[39m: [32m'application/json'[39m
+    }
+  },
+  {
+    url: [32m'https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/ckl2phsabijs71623vk0%7Cckl2phsabijs71623vqg'[39m,
+    method: [32m'GET'[39m,
+    postData: [1mnull[22m,
+    headers: {
+      [32m'sec-ch-ua-platform'[39m: [32m'"Windows"'[39m,
+      authorization: [32m'Bearer eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI4NTYxYTFlMC1lYjZlLTQzN2UtYjY5Yi00YTBmYjRkODRiNzIiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiODVjMjA3ODAtZDdhNi00NzYzLTk2NDEtYmI1NjlkZWM3ZGZhIiwiZXZlbnRfaWQiOiJjZTVkMzEyYy03M2Q0LTRhOTgtYmZiYS1lMjQxMGQ3MGJhZTgiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzU3MTY4Nzk2LCJleHAiOjE3NTcxNzIzOTYsImlhdCI6MTc1NzE2ODc5NiwianRpIjoiNmU2YTljNDctMzI4OC00MzQzLWI1ZDAtNWQ1MDk0ZTQ2MmZhIiwidXNlcm5hbWUiOiJUZXN0VXNlcl8xNzU3MjA4NDI3OTkwXzcxMCJ9.bNylq64ts2K9cWxKyZaectGxbitofWbqm1598KOtetteNHdJJR3vdGuRmQ-GBG4xkJSbExZf6GBpp-l98Z5Mkv5wk8PuvMW9dcfe-CQ2cJzXMbxPCt507-zr0w_hDISTVkspyQfYMdAKJk8ln5IpypBNP7fl8mA1PI4LPnNvFYMQgjwnEwSTeoySTNLHTZ1LZ5x8RFCe538KgbghPaRs4iwdfKsooMevyHsTVPTBJLEXwZkuMjhgAOCg8M0sGhdudqzBandOgbEyU_HkDJtYqWAmai7PJh0pVAJQEYCrMqKeSjPWHCFmsaoQ_8uoShiOWw4J0DL6JJs6EoKJqW0Xcg'[39m,
+      referer: [32m'https://buggy.justtestit.org/'[39m,
+      [32m'user-agent'[39m: [32m'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36'[39m,
+      [32m'sec-ch-ua'[39m: [32m'"Chromium";v="140", "Not=A?Brand";v="24", "HeadlessChrome";v="140"'[39m,
+      [32m'accept-language'[39m: [32m'en-US'[39m,
+      [32m'sec-ch-ua-mobile'[39m: [32m'?0'[39m
+    }
+  }
+]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="db\database.spec.js" timestamp="2025-09-07T01:27:06.006Z" hostname="chromium" tests="9" failures="0" skipped="0" time="84.579" errors="0">
+<testcase name="Database tests › Registration succeeds with valid data" classname="db\database.spec.js" time="5.78">
+</testcase>
+<testcase name="Database tests › Registration fails with SQL injection attempt" classname="db\database.spec.js" time="2.157">
+</testcase>
+<testcase name="Database tests › Registration fails when username violates DB constraints" classname="db\database.spec.js" time="8.443">
+</testcase>
+<testcase name="Database tests › Duplicate username constraint (edge case)" classname="db\database.spec.js" time="9.904">
+</testcase>
+<testcase name="Database tests › Long input / boundary condition" classname="db\database.spec.js" time="2.081">
+</testcase>
+<testcase name="Database tests › Password update persists in DB" classname="db\database.spec.js" time="8.276">
+</testcase>
+<testcase name="Database tests › Profile update persists in DB" classname="db\database.spec.js" time="9.999">
+</testcase>
+<testcase name="Database tests › Votes persist correct timestamp" classname="db\database.spec.js" time="15.807">
+</testcase>
+<testcase name="Database tests › Multiple votes prevention" classname="db\database.spec.js" time="22.132">
+</testcase>
+</testsuite>
+<testsuite name="ui\login.spec.js" timestamp="2025-09-07T01:27:06.006Z" hostname="chromium" tests="10" failures="0" skipped="0" time="66.914" errors="0">
+<testcase name="Login tests › Valid Login with Registered User" classname="ui\login.spec.js" time="9.652">
+</testcase>
+<testcase name="Login tests › Login fails with invalid credentials - Username" classname="ui\login.spec.js" time="2.482">
+</testcase>
+<testcase name="Login tests › Login fails with invalid credentials - Password" classname="ui\login.spec.js" time="5.642">
+</testcase>
+<testcase name="Login tests › Empty credentials prevent login" classname="ui\login.spec.js" time="5.344">
+</testcase>
+<testcase name="Login tests › Session persistence" classname="ui\login.spec.js" time="11.727">
+</testcase>
+<testcase name="Login tests › Logout functionality" classname="ui\login.spec.js" time="4.811">
+<system-out>
+<![CDATA[Storage after login: {
+  local: {
+    token: [32m'eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkNTJmNTg5OC05MTVkLTQ2MzQtYjBjOS0yNmNhNWMxZGQ4ZGMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiZjFkODg3ZTItMzkwZC00NTNiLWEzNWUtM2YyNmFmNDdhNDdlIiwiZXZlbnRfaWQiOiI0MDE2ZTBlNy1kOTkxLTRmNzMtODc5MC05YjNmNjkyNGFhMjMiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzU3MTY4ODMzLCJleHAiOjE3NTcxNzI0MzMsImlhdCI6MTc1NzE2ODgzMywianRpIjoiODIyYjhhNmYtYWZjMy00MjA3LTk1YzEtZDlkNWMxMGRkZWNhIiwidXNlcm5hbWUiOiJ0ZXN0dXNlcnBsYXl3cmlnaHQifQ.jWU6G62HZIOdwG31BXx18tZwQdgRqxL1efXxlUMVbGDauLniNVBoz-rE6UoPwfYJMD_daXutRw4U7dlVotTkEJLKavCOZBg6Rv7rrpBQ6pItqAAPDECaBVW_8Q34moTgIZvU1d-XwdF9JSDd2O-LDP7VOwt4bkRh_cURELepMFnePEMzmgXUs2elwpQr0Dkk94kZKXCpa8BgGWIsx8w41xhAV_I5MEkODUfvjdgrMZPXTDuE4HFhbc_B4oifb6dJ4ZBaspWIX-cYTy9Kq4RFevCFxCGFWlXm3LjPR5qyGUsMcpmbdMGuqlB05a0VJOiReQm7_MzvXz7hbwenE5pvfg'[39m
+  },
+  session: {}
+}
+Storage after logout: { local: {}, session: {} }
+]]>
+</system-out>
+</testcase>
+<testcase name="Login tests › Access control for Profile page without login" classname="ui\login.spec.js" time="2.305">
+</testcase>
+<testcase name="Login tests › Brute force protection (multiple failed attempts)" classname="ui\login.spec.js" time="10.724">
+</testcase>
+<testcase name="Login tests › Case Sensitivity in Credentials" classname="ui\login.spec.js" time="5.918">
+</testcase>
+<testcase name="Login tests › Login Functionality with Cookies (Remember Me Simulation)" classname="ui\login.spec.js" time="8.309">
+</testcase>
+</testsuite>
+<testsuite name="ui\profile.spec.js" timestamp="2025-09-07T01:27:06.006Z" hostname="chromium" tests="2" failures="0" skipped="0" time="30.781" errors="0">
+<testcase name="Profile tests › Update First Name persists after refresh" classname="ui\profile.spec.js" time="15.644">
+</testcase>
+<testcase name="Profile tests › Update Password functionality correctly functions" classname="ui\profile.spec.js" time="15.137">
+</testcase>
+</testsuite>
+<testsuite name="ui\register.spec.js" timestamp="2025-09-07T01:27:06.006Z" hostname="chromium" tests="8" failures="0" skipped="0" time="31.338" errors="0">
+<testcase name="Registration tests › Valid Login" classname="ui\register.spec.js" time="3.788">
+</testcase>
+<testcase name="Registration tests › Register with existing username" classname="ui\register.spec.js" time="5.198">
+</testcase>
+<testcase name="Registration tests › Register with unmatching password" classname="ui\register.spec.js" time="1.868">
+</testcase>
+<testcase name="Registration tests › Register with a short password" classname="ui\register.spec.js" time="4.637">
+</testcase>
+<testcase name="Registration tests › Registration fails when password missing required character types" classname="ui\register.spec.js" time="7.779">
+</testcase>
+<testcase name="Registration tests › Register with max length password" classname="ui\register.spec.js" time="4.245">
+</testcase>
+<testcase name="Registration tests › Register with max length username" classname="ui\register.spec.js" time="1.956">
+</testcase>
+<testcase name="Registration tests › Register button disabled until all mandatory fields are filled" classname="ui\register.spec.js" time="1.867">
+</testcase>
+</testsuite>
+<testsuite name="ui\voting.spec.js" timestamp="2025-09-07T01:27:06.006Z" hostname="chromium" tests="5" failures="0" skipped="0" time="139.531" errors="0">
+<testcase name="Voting tests › Vote functionality without login" classname="ui\voting.spec.js" time="12.571">
+</testcase>
+<testcase name="Voting tests › Vote with valid user" classname="ui\voting.spec.js" time="20.437">
+</testcase>
+<testcase name="Voting tests › Concurrent Voting(Vote count incrementation)" classname="ui\voting.spec.js" time="33.749">
+</testcase>
+<testcase name="Voting tests › Cross-Page vote persistance" classname="ui\voting.spec.js" time="33.354">
+</testcase>
+<testcase name="Voting tests › Cross-Browser vote persistance" classname="ui\voting.spec.js" time="39.42">
+</testcase>
+</testsuite>
+</testsuites>

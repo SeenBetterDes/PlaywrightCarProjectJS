@@ -1,0 +1,31 @@
+Captured requests:  [
+  {
+    url: 'https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/ckl2phsabijs71623vk0%7Cckl2phsabijs71623vqg/vote',
+    method: 'POST',
+    postData: '{"comment":""}',
+    headers: {
+      'sec-ch-ua-platform': '"Windows"',
+      authorization: 'Bearer eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI4NTYxYTFlMC1lYjZlLTQzN2UtYjY5Yi00YTBmYjRkODRiNzIiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiODVjMjA3ODAtZDdhNi00NzYzLTk2NDEtYmI1NjlkZWM3ZGZhIiwiZXZlbnRfaWQiOiJjZTVkMzEyYy03M2Q0LTRhOTgtYmZiYS1lMjQxMGQ3MGJhZTgiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzU3MTY4Nzk2LCJleHAiOjE3NTcxNzIzOTYsImlhdCI6MTc1NzE2ODc5NiwianRpIjoiNmU2YTljNDctMzI4OC00MzQzLWI1ZDAtNWQ1MDk0ZTQ2MmZhIiwidXNlcm5hbWUiOiJUZXN0VXNlcl8xNzU3MjA4NDI3OTkwXzcxMCJ9.bNylq64ts2K9cWxKyZaectGxbitofWbqm1598KOtetteNHdJJR3vdGuRmQ-GBG4xkJSbExZf6GBpp-l98Z5Mkv5wk8PuvMW9dcfe-CQ2cJzXMbxPCt507-zr0w_hDISTVkspyQfYMdAKJk8ln5IpypBNP7fl8mA1PI4LPnNvFYMQgjwnEwSTeoySTNLHTZ1LZ5x8RFCe538KgbghPaRs4iwdfKsooMevyHsTVPTBJLEXwZkuMjhgAOCg8M0sGhdudqzBandOgbEyU_HkDJtYqWAmai7PJh0pVAJQEYCrMqKeSjPWHCFmsaoQ_8uoShiOWw4J0DL6JJs6EoKJqW0Xcg',
+      referer: 'https://buggy.justtestit.org/',
+      'accept-language': 'en-US',
+      'sec-ch-ua': '"Chromium";v="140", "Not=A?Brand";v="24", "HeadlessChrome";v="140"',
+      'sec-ch-ua-mobile': '?0',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36',
+      'content-type': 'application/json'
+    }
+  },
+  {
+    url: 'https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/ckl2phsabijs71623vk0%7Cckl2phsabijs71623vqg',
+    method: 'GET',
+    postData: null,
+    headers: {
+      'sec-ch-ua-platform': '"Windows"',
+      authorization: 'Bearer eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI4NTYxYTFlMC1lYjZlLTQzN2UtYjY5Yi00YTBmYjRkODRiNzIiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiODVjMjA3ODAtZDdhNi00NzYzLTk2NDEtYmI1NjlkZWM3ZGZhIiwiZXZlbnRfaWQiOiJjZTVkMzEyYy03M2Q0LTRhOTgtYmZiYS1lMjQxMGQ3MGJhZTgiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzU3MTY4Nzk2LCJleHAiOjE3NTcxNzIzOTYsImlhdCI6MTc1NzE2ODc5NiwianRpIjoiNmU2YTljNDctMzI4OC00MzQzLWI1ZDAtNWQ1MDk0ZTQ2MmZhIiwidXNlcm5hbWUiOiJUZXN0VXNlcl8xNzU3MjA4NDI3OTkwXzcxMCJ9.bNylq64ts2K9cWxKyZaectGxbitofWbqm1598KOtetteNHdJJR3vdGuRmQ-GBG4xkJSbExZf6GBpp-l98Z5Mkv5wk8PuvMW9dcfe-CQ2cJzXMbxPCt507-zr0w_hDISTVkspyQfYMdAKJk8ln5IpypBNP7fl8mA1PI4LPnNvFYMQgjwnEwSTeoySTNLHTZ1LZ5x8RFCe538KgbghPaRs4iwdfKsooMevyHsTVPTBJLEXwZkuMjhgAOCg8M0sGhdudqzBandOgbEyU_HkDJtYqWAmai7PJh0pVAJQEYCrMqKeSjPWHCFmsaoQ_8uoShiOWw4J0DL6JJs6EoKJqW0Xcg',
+      referer: 'https://buggy.justtestit.org/',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36',
+      'sec-ch-ua': '"Chromium";v="140", "Not=A?Brand";v="24", "HeadlessChrome";v="140"',
+      'accept-language': 'en-US',
+      'sec-ch-ua-mobile': '?0'
+    }
+  }
+]
