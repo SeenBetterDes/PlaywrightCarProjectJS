@@ -31,10 +31,15 @@ jobs:
     - name: Install Playwright browsers
       run: npx playwright install --with-deps
 
-    - name: Set up MySQL 8 and import schema
+    - name: Start MySQL service
+      run: sudo service mysql start
+
+    - name: Configure MySQL root user
       run: |
-        sudo service mysql start
         sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root'; FLUSH PRIVILEGES;"
+
+    - name: Create database and import schema
+      run: |
         mysql -uroot -proot -e "CREATE DATABASE IF NOT EXISTS cars_db;"
         mysql -uroot -proot cars_db < ./docs/schema_with_data.sql
 
