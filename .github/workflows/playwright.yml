@@ -45,13 +45,8 @@ jobs:
     - name: Install Playwright browsers
       run: npx playwright install --with-deps
 
-    - name: Clean SQL file
-      run: |
-        sed -i '1s/^\xEF\xBB\xBF//' ./docs/schema_with_data.sql
-        tr -d '\000' < ./docs/schema_with_data.sql > ./docs/schema_clean.sql
-
     - name: Import schema
-      run: mysql --binary-mode=1 -h 127.0.0.1 -uroot -proot cars_db < ./docs/schema_clean.sql
+      run: mysql -h 127.0.0.1 -uroot -proot cars_db < ./docs/schema_clean.sql
 
     - name: Run Playwright tests
       run: npx playwright test
